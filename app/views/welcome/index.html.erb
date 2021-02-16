@@ -1,2 +1,10 @@
-<h1>Welcome to the Stock Tracker!</h1>
-<p>Create a welcome page</p>
+<p>
+<div class="container id="home-container">
+  <div class="jumbotron text-center text-black vertical-center">
+    <h1 class="display-4">Welcome to the Stock Tracker!</h1>
+    <%= link_to "My Portfolio", my_portfolio_path, class: "btn btn-outline-dark btn-lg" %>
+    <%= link_to 'My Friends', my_friends_path, class: "btn btn-outline-dark btn-lg" %>
+
+  </div>
+</div>
+</p>

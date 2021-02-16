@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .search-area {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .no-right-padding {
@@ -24,4 +24,9 @@ padding-right: 0 !important;
 .user-name {
   margin-top: 3.5%;
   padding-right: 8px;
+}
+
+.vertical-center {
+  margin-top: 60px;
+  align-items: center;
 }
