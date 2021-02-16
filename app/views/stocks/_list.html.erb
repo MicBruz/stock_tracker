@@ -1,5 +1,8 @@
 <div class="row">
   <div class="col-9">
+    <% if current_user.id == @user.id %>
+      <%= link_to "Update Prices", my_portfolio_update_path, class: "btn btn-sm btn-secondary update-prices" %>
+    <% end %>
     <table class="table table-bordered table-hover">
       <thead>
       <tr>
